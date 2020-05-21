@@ -12,3 +12,19 @@ For an Affine-invariant sampler, such as the Ensemble sampler here, it is able t
 
 ### 2) Example Rosenbrock:
 This tutorial seeks to evaluate the robustness and strength of the Ensemble sampler in sampling from a highly-anisotropic distribution which cannot be re-scaled via Affine-transformation. As a comparison, the [Metropolis-Hastings](https://doi.org/10.1093/biomet/57.1.97) sampler will also be implemented to demonstrate the relative strength of the Ensemble sampler over the latter in samplign from such complex distributions.
+
+## References:
+* J. Goodman and J. Weare (2010). Ensemble Samplers with Affne Invariance.
+*Communications in Applied Mathematics and Computational Science, 5*(1), 65-80. doi: 10.2140/camcos.2010.5.65
+
+* W. K. Hastings, W. K. (1970). Monte Carlo sampling methods using Markov chains and their applications. *Biometrika, 57*(1), 97-109. doi: 10.1093/biomet/57.1.97
+
+* H. H. Rosenbrock (1960). An Automatic Method for Finding the Greatest or Least Value of a Function. *The Computer Journal, 3*(3), 175-184. doi: 10.1093/comjnl/3.3.175
+
+## Author:
+* Name: Adolphus Lye
+* Contact: adolphus.lye@liverpool.ac.uk
+* Affiliation: Insitute for Risk and Uncertainty, University of Liverpool
+
+## Acknowledgement:
+The Ensemble sampler code presented here is adopted and improvised from the original version (in MATLAB as well) written by Aslak Grinsted. The repository of his work can be accessed [HERE](https://github.com/grinsted/gwmcmc). 
