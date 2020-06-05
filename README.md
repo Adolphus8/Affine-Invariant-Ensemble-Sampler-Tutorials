@@ -13,6 +13,9 @@ For an Affine-invariant sampler, such as the Ensemble sampler here, it is able t
 ### 2) Example Rosenbrock:
 This tutorial seeks to evaluate the robustness and strength of the Ensemble sampler in sampling from a highly-anisotropic distribution which cannot be re-scaled via Affine-transformation. As a comparison, the [Metropolis-Hastings](https://doi.org/10.1093/biomet/57.1.97) sampler will also be implemented to demonstrate the relative strength of the Ensemble sampler over the latter in samplign from such complex distributions.
 
+### 3) Example Bi-modal Posterior:
+This tutorial seeks to evaluate the performance of the Ensemble sampler in sampling from a bi-modal target distribution. As a comparison, the established [Transitional Markov Chain Monte Carlo (TMCMC)](https://doi.org/10.1061/(ASCE)0733-9399(2007)133:7(816)) sampler will also be implemented as a benchmark/comparison. 
+
 ## References:
 * J. Goodman and J. Weare (2010). Ensemble Samplers with Affne Invariance.
 *Communications in Applied Mathematics and Computational Science, 5*(1), 65-80. doi: 10.2140/camcos.2010.5.65
@@ -20,6 +23,8 @@ This tutorial seeks to evaluate the robustness and strength of the Ensemble samp
 * W. K. Hastings, W. K. (1970). Monte Carlo sampling methods using Markov chains and their applications. *Biometrika, 57*(1), 97-109. doi: 10.1093/biomet/57.1.97
 
 * H. H. Rosenbrock (1960). An Automatic Method for Finding the Greatest or Least Value of a Function. *The Computer Journal, 3*(3), 175-184. doi: 10.1093/comjnl/3.3.175
+
+* J. Ching, and Y. Chen (2007). Transitional Markov Chain Monte Carlo Method for Bayesian Model Updating, Model Class Selection, and Model Averaging. *Journal of Engineering Mechanics, 133*(7), 816-832. doi: 10.1061/(asce)0733-9399(2007)133:7(816) 
 
 ## Author:
 * Name: Adolphus Lye
