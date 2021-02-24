@@ -32,4 +32,4 @@ This tutorial seeks to evaluate the performance of the Ensemble sampler in sampl
 * Affiliation: Insitute for Risk and Uncertainty, University of Liverpool
 
 ## Acknowledgement:
-The Ensemble sampler code presented here is adopted and improvised from the original version (in MATLAB as well) written by Aslak Grinsted. The repository of his work can be accessed [HERE](https://github.com/grinsted/gwmcmc). 
+The Ensemble sampler code presented here is adopted and modified from the original version (in MATLAB as well) written by Aslak Grinsted. The repository of his work can be accessed [HERE](https://github.com/grinsted/gwmcmc). 
